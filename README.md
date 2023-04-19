@@ -5,6 +5,7 @@ The PowerShell scripts below do a couple of things, the first script looks for P
 
 
 ## PII_Scan.ps1
-
+[Script Here] (https://github.com/nutt318/PII_Scanner_And_Mover/blob/main/PII_Scan.ps1)
 
 ## PII_Mover.ps1
+[Script Here] (https://github.com/nutt318/PII_Scanner_And_Mover/blob/main/PII_Mover.ps1)
