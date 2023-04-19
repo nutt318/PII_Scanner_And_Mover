@@ -5,7 +5,7 @@
 # Setup source directories to scan, extensions to look in and the results file, keep the '\\?\' before the directory to enable long file paths
 # Do not scan Accounting share, it will contain company confidential items and is expected
 $sourceDirectories = @(
-        #"\\?\E:\Accounting",
+        #"\\?\X:\Accounting",
         "\\?\X:\Contracts",
         "\\?\X:\Clients",
         "\\?\X:\Development",
@@ -15,7 +15,7 @@ $sourceDirectories = @(
         "\\?\X:\Travel"
 )
 $searchExtensions = @("*.txt", "*.doc", "*.xls", "*.csv")
-$logFile = "E:\Scripts\PII_Results.txt"
+$logFile = "X:\PII_Results.txt"
 
 # Define regular expressions to search for PII data
 $ssnRegex = "\b\d{3}-\d{2}-\d{4}\b"
