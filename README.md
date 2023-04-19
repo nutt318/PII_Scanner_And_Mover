@@ -1,2 +1,10 @@
 # PII_Scanner_And_Mover
-First script looks for PII data, second script moves the PII data into a new directory with the same folder structure
+The PowerShell scripts below do a couple of things, the first script looks for PII data (SSN and CC #'s) and writes the file path to a results file. The second script moves those files with PII data into a new directory with the same folder structure. This helps to idenify where something may have gotten moved that shouldnt and instead of putting all files within the same directory it creates that same folder structure.
+
+****Suggestions or edits are welcome!, I'm sure there are impovments that can me made.
+
+
+## PII_Scan.ps1
+
+
+## PII_Mover.ps1
